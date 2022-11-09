@@ -10,7 +10,7 @@ export default function Menu({links}) {
       }}>
     <div className="d-flex justify-content-start">
       <Link to="/">
-        <img src="/images/textlogo.png" alt="text logo" style={{height: 'calc(10vh - 3rem)', width: 'auto'}}></img>
+        <img src="/static/images/textlogo.png" alt="text logo" style={{height: 'calc(10vh - 3rem)', width: 'auto'}}></img>
       </Link>
     </div>
     <nav className="d-flex justify-content-end align-items-center">

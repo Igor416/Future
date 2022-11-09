@@ -45,15 +45,15 @@ class About extends Component {
         <div className={(this.isMobile ? 'flex-column ': '') + "d-flex justify-content-between mx-sm-5"}>
           <div className="shadow p-5">
             <span>Завуч всего и вся: Докина С. А.</span>
-            <img src="/images/science_art.png" alt="С. А. Докина" />
+            <img src="/static/images/science_art.png" alt="С. А. Докина" />
           </div>
           <div className="shadow p-5 mx-sm-5 my-5 my-sm-0">
             <span>Директор совета НОУ Future: Гутюм М. А.</span>
-            <img src="/images/science_art.png" alt="С. А. Докина" />
+            <img src="/static/images/science_art.png" alt="С. А. Докина" />
           </div>
           <div className="shadow p-5">
             <span>Директор IPLT A. Puskin: Абрамова О. В.</span>
-            <img src="/images/science_art.png" alt="С. А. Докина" />
+            <img src="/static/images/science_art.png" alt="С. А. Докина" />
           </div>
         </div>
       </div>

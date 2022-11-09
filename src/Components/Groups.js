@@ -86,7 +86,7 @@ class Groups extends Component {
         {!this.isMobile && [1, 2, 3, 4].map(index => {
           return <img
             key={index}
-            src={`/images/science_piece_${index}.png`}
+            src={`/static/images/science_piece_${index}.png`}
             alt={`science piece №${index}`}
             className="position-absolute"
             style={

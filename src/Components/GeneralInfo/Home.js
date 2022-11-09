@@ -38,6 +38,6 @@ export default function Home({isMobile}) {
         <MemberButton />
       </div>
     </div>
-    <img id="science_art" src="/images/science_art.png"  alt="science art"/>
+    <img id="science_art" src="/static/images/science_art.png"  alt="science art"/>
   </div>
 }

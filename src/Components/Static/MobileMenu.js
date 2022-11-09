@@ -41,7 +41,7 @@ export default function MobileMenu({links}) {
       </div>
       <div className="d-flex justify-content-start">
         <Link onClick={() => toggleMenu(false)} to="/">
-          <img src="/images/textlogo.png" alt="text logo" width="75%" height="auto"></img>
+          <img src="/static/images/textlogo.png" alt="text logo" width="75%" height="auto"></img>
         </Link>
       </div>
     </div>
