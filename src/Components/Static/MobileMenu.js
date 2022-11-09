@@ -48,6 +48,16 @@ export default function MobileMenu({links}) {
     <div style={{left: 0, opacity: 0, height: '100vh', backgroundColor: 'var(--mango)'}} className={(menuToggled ? "menu-show" : "menu-hide") + " position-absolute transition d-flex flex-column"}>
       <div className="d-flex flex-column">
       {Object.keys(links).map((link, index) => {
+      if (link === '?member') {
+        return (
+          <div onClick={() => toggleMenu(false)} key={index} className="link transition">
+            <div className="w-100 p-3 d-flex justify-content-between border-bottom link">
+              <span>{links[link]}</span>
+              <FontAwesomeIcon icon='angle-right' color="var(--blue-violet)" />
+            </div>
+          </div>
+        )
+      }
       return (
         <Link onClick={() => toggleMenu(false)} key={index} to={'/' + link} className="link transition">
           <div className="w-100 p-3 d-flex justify-content-between border-bottom link">
